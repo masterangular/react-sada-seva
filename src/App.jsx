@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 // import {Contact} from './components/Contact';
 
 import { Home, About, HowitWorks, Gallery, Contact, Error, Banner, Donate} from './components'
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="*" Component={Error} />
         
       </Routes>
+      <Footer />
     </>
   )
 }
